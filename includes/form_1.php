@@ -49,12 +49,6 @@
 	<link rel="stylesheet" type="text/css" href="../css/et-line.css">
 	
     <title>Contact - Agence Web Design - La Panthère</title>
-
-    
-<!-- Analytics -->
- 
-<!-- Analytics END -->
-    
 </head>
 
 <!-- TODO - Mail -->
