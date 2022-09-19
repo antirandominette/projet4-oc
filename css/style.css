@@ -41,6 +41,17 @@ a:hover {
     margin-top: 50px;
 }
 
+.flex-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul.row {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
 .section-title {
     font-weight: normal;
     font-size: 20px;
