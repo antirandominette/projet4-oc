@@ -70,11 +70,11 @@ $(function()
 	 // Get Path to processor PHP file
 	 function getProcessorPath(form)
 	 {
-		var path = "../scripts/"+form.attr('id')+".php";
+		var path = "./includes/"+form.attr('id')+".php";
 		
 		if(form.attr('template-path')) // Check For Template path
 		{
-			path = form.attr('template-path')+"/scripts/"+form.attr('id')+".php";
+			path = form.attr('template-path')+"/includes/"+form.attr('id')+".php";
 		}
 		
 	 	return path
