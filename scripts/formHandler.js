@@ -9,7 +9,7 @@ $(function()
 			{
 				event.preventDefault(); // prevent default submit behaviour
 			
-				var processorFile = getProcessorPath($form);
+				var processorFile = "../includes/form_1.php";
 				var formData = {};
 
 				$form.find("input, textarea, option:selected").each(function(e) // Loop over form objects build data object
@@ -68,15 +68,15 @@ $(function()
 	 });
 	 
 	 // Get Path to processor PHP file
-	 function getProcessorPath(form)
-	 {
-		var path = "../includes/"+form.attr('id')+".php";
+	//  function getProcessorPath(form)
+	//  {
+	// 	var path = "../includes/"+form.attr('id')+".php";
 		
-		if(form.attr('template-path')) // Check For Template path
-		{
-			path = form.attr('template-path')+"/includes/"+form.attr('id')+".php";
-		}
+	// 	if(form.attr('template-path')) // Check For Template path
+	// 	{
+	// 		path = form.attr('template-path')+"/includes/"+form.attr('id')+".php";
+	// 	}
 		
-	 	return path
-	 }
+	//  	return path
+	//  }
 });
