@@ -46,6 +46,10 @@ a:hover {
     background: #FFFFFF url("../assets/img/pageload-spinner.gif") no-repeat center center;
 }
 
+#form-infos {
+    margin-top: 50px;
+}
+
 .section-title {
     font-weight: normal;
     font-size: 20px;
@@ -817,7 +821,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine {
