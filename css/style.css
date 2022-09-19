@@ -5,13 +5,14 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
 
 main {
-flex: 1 0 auto;
+    flex: 1 0 auto;
 }
 
 a,
@@ -825,11 +826,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("../assets/img/agence-la-panthere.jpg");
+    background-image: url("../assets/img/agence-la-panthere.avif");
 }
 
 .bg-presentation {
-    background-image: url("../assets/img/image-de-presentation.bmp");
+    background-image: url("../assets/img/image-de-presentation.avif");
 }
 
 @media (max-width: 1024px) {
