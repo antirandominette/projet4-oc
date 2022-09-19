@@ -35,6 +35,30 @@ a:hover {
     background: #FFFFFF url("../assets/img/pageload-spinner.gif") no-repeat center center;
 }
 
+.section-title {
+    font-weight: normal;
+    font-size: 20px;
+    text-transform: none;
+    font-style: none;
+    color: #535353 !important;
+}
+.section-title:first-of-type {
+    margin-bottom: 30px;
+}
+
+.citation {
+    font-weight: normal;
+    font-size: 20px;
+    text-transform: none;
+    font-style: italic;
+    color: #535353 !important;
+}
+
+cite {
+    font-size: 16px;
+    font-style: normal;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -718,7 +742,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
