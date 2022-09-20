@@ -17,6 +17,13 @@ main {
     flex: 1 0 auto;
 }
 
+.navbar-nav{
+    float:none !important;
+    margin: 0 auto !important;
+    display: table !important;
+    table-layout: fixed !important;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -41,6 +48,13 @@ a:hover {
     margin-top: 50px;
 }
 
+.panthere-agence-svg {
+    width: 100%;
+    height: auto;
+    -webkit-filter: invert(100%) sepia(99%) saturate(0%) hue-rotate(12deg) brightness(106%) contrast(101%);
+                filter: invert(100%) sepia(99%) saturate(0%) hue-rotate(12deg) brightness(106%) contrast(101%); 
+                /* invert colors from black to white https://codepen.io/sosuke/pen/Pjoqqp */
+}
 .padding40 {
     padding: 40px;
 }
@@ -74,7 +88,7 @@ ul.row {
 
 .section-title {
     font-weight: normal;
-    font-size: 20px;
+    font-size: 24px;
     text-transform: none;
     font-style: none;
     color: #535353 !important;
@@ -502,6 +516,10 @@ nav .caret {
     border-bottom-color: transparent;
     margin: 6px -5px 0 0!important;
     float: right;
+}
+
+.mgb-md {
+    margin-bottom: 40px;
 }
 
 .mg-md {

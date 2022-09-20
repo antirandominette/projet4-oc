@@ -53,7 +53,7 @@
 	<!-- main beginning -->
 	<main class="page-container">
 		<!-- talk about section beginning -->
-		<section class="bloc bg-repeat bgc-dark-slate-blue d-bloc bloc-bg-texture texture-paper" id="talk-about-webdesign-section">
+		<section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="talk-about-webdesign-section">
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12">
@@ -73,12 +73,12 @@
 		<!-- form section beginning -->
 		<section class="bloc bgc-white l-bloc" id="form-section">
 			<div class="container bloc-lg">
-				<h3>Formulaire de contact :</h3>
 				<div class="row">
 					<div class="col-sm-12">
 						<form
 							method="post"
-							action="../includes/form_1.php" >
+							action="../includes/form_1.php" 
+						>
 							<div class="form-group">
 								<label>
 									Nom
@@ -103,8 +103,15 @@
 								</label>
 								<textarea id="message" name="message" class="form-control" rows="4" cols="50" required ></textarea>
 							</div> 
-							<input name="submit" class="bloc-button btn btn-lg btn-block cta-hero btn-dark-slate-blue" type="submit" />
+							<input name="submit" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" />
 						</form>
+						<?php
+							echo '
+								<div class="alert alert-danger">
+                                    Sorry it seems that our mail server is not responding, Sorry for the inconvenience!
+								</div>
+								';
+						?>
 						<p id="form-infos">
 							contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 						</p>
@@ -121,7 +128,7 @@
 	<!-- Principal conteneur END -->
 	
 	<!-- footer beginning -->
-	<footer class="bloc bgc-dark-slate-blue d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="footer-section">
+	<footer class="bloc bgc-atomic-tangerine d-bloc" id="footer-section">
 		<div class="container bloc-sm">
 			<div class="row">
 				<div class="col-sm-12">
