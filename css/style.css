@@ -865,6 +865,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("../assets/img/agence-la-panthere.avif");
+    background-size: cover !important;
 }
 
 .bg-presentation {
