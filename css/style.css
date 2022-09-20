@@ -41,9 +41,29 @@ a:hover {
     margin-top: 50px;
 }
 
-.flex-list {
+.padding40 {
+    padding: 40px;
+}
+.partenaires-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.partenaires-title {  
+    color: #fff !important;
+    width: fit-content;
+    border-bottom: solid 2px #fff;
+    margin-bottom: 40px;
+}
+
+.partenaires-list {
+    width: 100%;
     display: flex;
     justify-content: space-around;
+}
+.partenaires-list li a {
+    color: #fff !important;
+    font-size: 16px;
 }
 
 ul.row {
@@ -73,6 +93,7 @@ ul.row {
 
 cite {
     font-size: 16px;
+    color: #575757 !important;
 }
 
 .bloc {
@@ -148,7 +169,7 @@ cite {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc button:hover {
@@ -724,6 +745,7 @@ a {
 
 p {
     font-size: 16px;
+    color: #000000 !important;
 }
 
 .tight-width-whitespace {
@@ -799,8 +821,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 40px;
 }
 
 .bold-link {
@@ -814,6 +836,15 @@ h4 {
 
 .bgc-dark-slate-blue {
     background-color: #364577;
+}
+
+.btn-dark-slate-blue {
+    background-color: #364577;
+
+}
+.btn-dark-slate-blue:hover {
+    background-color: #2f3c66;
+    color: #FFFFFF!important;
 }
 
 .bgc-atomic-tangerine {
