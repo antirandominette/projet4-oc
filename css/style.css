@@ -19,9 +19,18 @@ main {
 
 .navbar-nav{
     float:none !important;
-    margin: 0 auto !important;
-    display: table !important;
-    table-layout: fixed !important;
+
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.navbar-link {
+    font-size: 22px;
+    padding: 10px 30px !important;
+    border-bottom: 2px solid transparent;
+}
+.navbar-link:hover {
+    border-bottom: 2px solid #364577;
 }
 
 a,
@@ -902,14 +911,6 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
-}
-
-.bg-dots-bg {
-    background-image: url("../assets/img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("../assets/img/lines-h2-bg.png");
 }
 
 .bg-banniere {
