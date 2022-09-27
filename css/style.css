@@ -21,25 +21,31 @@ main {
     flex: 1 0 auto;
 }
 
-#presentation-section {
-    margin-top: 60px;
-}
 
 .navbar {
     border: none;
 }
 
 .navbar-fixed-top {
-    display: flex;
     align-items: center;
     background: #fff;
     height: 60px;
     box-shadow: 0px .3px 10px #000;
 
-    padding: 0 40px;
 }
 
+.navbar-collapse {
+    width: 100%;
+    background-color: #fff;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        padding: 0 !important;
+    }
+}
 .navbar-nav{
+    height: 100%;
     float:none !important;
 
     display: flex !important;
@@ -48,8 +54,13 @@ main {
 
     padding: 0 40px;
 }
+.navbar-nav li {
+    height: 100%;
+    margin-top: 0 !important;
+}
 
 .navbar-link {
+    padding-top: 25px !important;
     font-size: 18px;
     border-bottom: 5px solid transparent;
     transition: .4s;
@@ -102,20 +113,23 @@ a:hover {
     align-items: center;
 }
 .partenaires-title {  
-    color: #fff !important;
+    /* color: #fff !important; */
     width: fit-content;
     border-bottom: solid 2px #fff;
     margin-bottom: 40px;
 }
 
 .partenaires-list {
-    width: 100%;
+    padding: 0;
+    width: 40%;
     display: flex;
     justify-content: space-around;
+    list-style: none;
 }
 .partenaires-list li a {
-    color: #fff !important;
+    /* color: #fff !important; */
     font-size: 16px;
+    margin: 0 10px;
 }
 
 ul.row {
@@ -415,7 +429,7 @@ cite {
 
 .navbar-brand {
     height: auto;
-    padding: 3px 15px;
+    padding: px 40px;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
@@ -865,6 +879,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
