@@ -1,6 +1,10 @@
+* {
+    box-sizing: border-box !important;
+}
+
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -17,11 +21,80 @@ main {
     flex: 1 0 auto;
 }
 
+footer {
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .col-sm-8 > p {
+    margin: 35px 0;
+}
+
+#presentation-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#what-we-do-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.navbar {
+    border: none;
+}
+
+.navbar-fixed-top {
+    align-items: center;
+    background: #fff;
+    height: 60px;
+    box-shadow: 0px .3px 10px #000;
+}
+
+.navbar-collapse {
+    width: 100%;
+    background-color: #fff;
+}
+
 .navbar-nav{
+    height: 100%;
     float:none !important;
-    margin: 0 auto !important;
-    display: table !important;
-    table-layout: fixed !important;
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    padding: 0 40px;
+    margin: 0;
+}
+.navbar-nav li {
+    height: 100%;
+    margin-top: 0 !important;
+}
+
+.navbar-link {
+    width: 100%;
+    text-align: center;
+    padding-top: 25px !important;
+    font-size: 18px;
+    border-bottom: 5px solid transparent;
+    transition: .4s;
+
+    text-transform: capitalize !important;
+    border-bottom: 5px solid transparent;
+}
+.navbar-link:hover {
+    border-bottom: 5px solid #364577;
+    transition: .4s;
 }
 
 a,
@@ -33,6 +106,10 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+
+.presentation-title {
+    text-transform: uppercase;
 }
 
 #page-loading-blocs-notifaction {
@@ -49,12 +126,13 @@ a:hover {
 }
 
 .panthere-agence-svg {
-    width: 100%;
+    width: 90%;
     height: auto;
     -webkit-filter: invert(100%) sepia(99%) saturate(0%) hue-rotate(12deg) brightness(106%) contrast(101%);
                 filter: invert(100%) sepia(99%) saturate(0%) hue-rotate(12deg) brightness(106%) contrast(101%); 
                 /* invert colors from black to white https://codepen.io/sosuke/pen/Pjoqqp */
 }
+
 .padding40 {
     padding: 40px;
 }
@@ -63,39 +141,50 @@ a:hover {
     flex-direction: column;
     align-items: center;
 }
+
 .partenaires-title {  
-    color: #fff !important;
+    /* color: #fff !important; */
     width: fit-content;
     border-bottom: solid 2px #fff;
     margin-bottom: 40px;
 }
 
 .partenaires-list {
-    width: 100%;
+    padding: 0;
+    width: 40%;
     display: flex;
     justify-content: space-around;
+    list-style: none;
 }
 .partenaires-list li a {
-    color: #fff !important;
+    /* color: #fff !important; */
     font-size: 16px;
+    margin: 0 10px;
 }
 
 ul.row {
     list-style-type: none;
     padding: 0;
+    /* margin-bottom: 30px; */
+}
+
+.section-paragraph {
+    font-weight: normal;
+    font-size: 24px;
+    text-transform: none;
+    font-style: none;
+    color: #000 !important;
     margin-bottom: 30px;
 }
 
 .section-title {
     font-weight: normal;
-    font-size: 24px;
+    font-size: 28px;
     text-transform: none;
     font-style: none;
-    color: #535353 !important;
+    color: #000 !important;
 }
-.section-title:first-of-type {
-    margin-bottom: 30px;
-}
+
 
 .citation {
     font-weight: normal;
@@ -356,6 +445,8 @@ cite {
 }
 
 .row-no-gutters {
+    display: flex;
+    justify-content: space-between;
     margin-right: 0;
     margin-left: 0;
 }
@@ -377,7 +468,7 @@ cite {
 
 .navbar-brand {
     height: auto;
-    padding: 3px 15px;
+    padding: px 40px;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
@@ -406,7 +497,7 @@ cite {
 }
 
 .nav > li {
-    float: left;
+    display: flex !important;
     margin-top: 4px;
     font-size: 16px;
 }
@@ -736,7 +827,7 @@ label,
 .btn,
 a {
     font-weight: normal;
-    color: #575757!important;
+    color: #000!important;
 }
 
 .container {
@@ -788,6 +879,7 @@ p {
 .social {
     max-width: 400px;
     margin: 30px auto;
+
 }
 
 h2 {
@@ -827,6 +919,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -904,14 +997,6 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("../assets/img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("../assets/img/lines-h2-bg.png");
-}
-
 .bg-banniere {
     background-image: url("../assets/img/agence-la-panthere.avif");
     background-size: cover !important;
@@ -986,6 +1071,23 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .navbar-nav {
+        padding: 0 !important;
+    }
+
+    .panthere-agence-svg {
+        width: 80% !important;
+    }
+    
+    #presentation-section {
+        height: 300px;
+    }
+
+    .partenaires-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .page-container {
         overflow-x: hidden;
         position: relative;
