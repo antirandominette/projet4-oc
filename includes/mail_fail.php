@@ -19,29 +19,33 @@
 <body>
 	<!-- header beginning -->
 	<header class="bloc bgc-white l-bloc " id="header-section">
-		<div class="container bloc-sm">
-
-			<nav class="navbar row">
+		<div class="container">
+			<nav class="navbar">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="../index.html">
 						<figure>
-							<img src="../assets/img/agence-la-panthere-monochrome.svg" alt="Image accueil Agence La Panthère" height="40" />
+							<img src="../assets/img/agence-la-panthere-monochrome.svg" alt="Image accueil Agence La Panthère" height="40" >
 						</figure>
 					</a>
 					
-					<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-						<span>
-							<i class="fa fa-bars fa-2x"></i>
-						</span>
+					<button 
+						id="nav-toggle" 
+						type="button" 
+						class="ui-navbar-toggle navbar-toggle" 
+						data-toggle="collapse" 
+						data-target=".navbar-1">
+							<span>
+								<i class="fa fa-bars fa-2x"></i>
+							</span>
 					</button>
 				</div>
 				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 					<ul class="site-navigation nav navbar-nav">
-						<li>
-							<a href="../index.html">Accueil</a>
+						<li class="no-padding">
+							<a class="navbar-link" href="../index.html">Accueil</a>
 						</li>
-						<li>
-							<a href="./contact.html">Contact</a>
+						<li class="no-padding">
+							<a class="navbar-link" href="../pages/contact.html">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -53,7 +57,7 @@
 	<!-- main beginning -->
 	<main class="page-container">
 		<!-- talk about section beginning -->
-		<section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="talk-about-webdesign-section">
+		<section class="bloc bg-repeat bgc-dark-slate-blue d-bloc bloc-bg-texture texture-paper" id="talk-about-webdesign-section">
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12">
@@ -73,29 +77,29 @@
 		<!-- form section beginning -->
 		<section class="bloc bgc-white l-bloc" id="form-section">
 			<div class="container bloc-lg">
+				<h3>Formulaire de contact :</h3>
 				<div class="row">
 					<div class="col-sm-12">
 						<form
 							method="post"
-							action="../includes/form_1.php" 
-						>
+							action="../includes/form_1.php" >
 							<div class="form-group">
 								<label>
 									Nom
 								</label>
-								<input name="name" type="text" class="form-control" required  />
+								<input name="name" type="text" class="form-control" required  >
 							</div>
 							<div class="form-group">
 								<label>
 									Adresse email
 								</label>
-								<input name="email" type="email" class="form-control" required />
+								<input name="email" type="email" class="form-control" required >
 							</div>
 							<div class="form-group">
 								<label>
 									Comment nous avez-vous connu ?
 								</label>
-								<input class="form-control" name="heard-about" type="text" required />
+								<input class="form-control" name="heard-about" type="text" required >
 							</div>
 							<div class="form-group">
 								<label>
@@ -103,7 +107,7 @@
 								</label>
 								<textarea id="message" name="message" class="form-control" rows="4" cols="50" required ></textarea>
 							</div> 
-							<input name="submit" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" />
+							<input name="submit" class="bloc-button btn btn-lg btn-block cta-hero btn-dark-slate-blue" type="submit" >
 						</form>
 						<?php
 							echo '
@@ -128,7 +132,7 @@
 	<!-- Principal conteneur END -->
 	
 	<!-- footer beginning -->
-	<footer class="bloc bgc-atomic-tangerine d-bloc" id="footer-section">
+	<footer class="bloc bgc-dark-slate-blue d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="footer-section">
 		<div class="container bloc-sm">
 			<div class="row">
 				<div class="col-sm-12">
@@ -159,5 +163,6 @@
 	<script src="../scripts/jqBootstrapValidation.js"></script>
 	<script src="../scripts/formHandler.js"></script>
 	<script src="https://kit.fontawesome.com/15cd056921.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 </html>
