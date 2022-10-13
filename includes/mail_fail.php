@@ -34,6 +34,7 @@
 						class="ui-navbar-toggle navbar-toggle" 
 						data-toggle="collapse" 
 						data-target=".navbar-1">
+							<span class="sr-only">Toggle navigation</span>
 							<span>
 								<i class="fa fa-bars fa-2x"></i>
 							</span>
