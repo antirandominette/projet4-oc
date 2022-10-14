@@ -35,7 +35,7 @@
 						data-toggle="collapse" 
 						data-target=".navbar-1">
 							<span class="sr-only">Toggle navigation</span>
-							<span>
+#							<span>
 								<i class="fa fa-bars fa-2x"></i>
 							</span>
 					</button>
@@ -142,16 +142,16 @@
 					</p>
 					<ul class="row row-no-gutters social">
 						<li class="col-sm-3 text-center">
-								<a class="social" href="../index.html"><span class="fa fa-twitter icon-md"></span></a>
+								<a class="social" href="#"><span class="fa fa-twitter icon-md"></span></a>
 						</li>
 						<li class="col-sm-3 text-center">
-							<a class="social" href="../index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="#"><span class="fa fa-facebook icon-md"></span></a>
 						</li>
 						<li class="col-sm-3 text-center">
-							<a class="social" href="../index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="#"><span class="fa fa-dribbble icon-md"></span></a>
 						</li>
 						<li class="col-sm-3 text-center">
-							<a class="social" href="../index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="#"><span class="fa fa-instagram icon-md"></span></a>
 						</li>
 					</ul>
 				</div>
