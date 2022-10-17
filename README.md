@@ -39,3 +39,4 @@ Vous travaillez pour l'agence La Panthère, une grande agence de web design bas�
 - Retirer les images de fond rayées et pointillées. (`lines-h2-bg.png` et `dots-bg.png`).
 - Changer l’affichage des `articles` de la section `portfolio`.
 - Transformer structure contenant les liens vers les réseaux sociaux par une liste `<ul>`.
+- Ajouter un attribut `aria-label` aux liens afin d'expliciter leur rôle.
