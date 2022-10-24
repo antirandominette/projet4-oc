@@ -8,7 +8,7 @@ Vous travaillez pour l'agence La Panthère, une grande agence de web design bas�
 - Changer l’attribut `<html lang=”Default”>` en `<html lang=”fr”>`.
 - Changer le contenu des balises `<title>`.
 - Supprimer les `<div class=”keywords”>`.
-- Restructurer la `<div class=”navbar”>` en réorganisant les <li> et supprimant les `<div class=”keywords”>`.
+- Restructurer la `<div class=”navbar”>` en réorganisant les `<li>` et supprimant les `<div class=”keywords”>` contenues dedans.
 - Supprimer les balises `<meta keywords=” ”>`.
 - Corriger les erreurs dans le fichier bootstrap.css.
 - Remplacer les trois `<span>` format un bar icon au profit d’un `<i class="fa fa-bars fa-2x"></i>`.
