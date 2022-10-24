@@ -11,7 +11,7 @@ Vous travaillez pour l'agence La Panthère, une grande agence de web design bas�
 - Restructurer la `<div class=”navbar”>` en réorganisant les `<li>` et supprimant les `<div class=”keywords”>` contenues dedans.
 - Supprimer les balises `<meta keywords=” ”>`.
 - Corriger les erreurs dans le fichier bootstrap.css.
-- Remplacer les trois `<span>` format un bar icon au profit d’un `<i class="fa fa-bars fa-2x"></i>`.
+- Remplacer les trois `<span>` formant un bars icon au profit d’un `<i class="fa fa-bars fa-2x"></i>`.
 - Réorganiser la structure du projet : noms de dossiers, fichiers et changement de répertoires.
 - Remplacer les `<a href="./page2.html">` par `<a href="./pages/contact.html">` dans index.html.
 - Remplacer les mots-clés dans les attributs `“alt”` des balises `<img>` par des descriptions des images concernées.
